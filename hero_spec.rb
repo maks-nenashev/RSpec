@@ -8,11 +8,11 @@ require './hero'
              # uslowie testa
         it "has a capitalized name" do
            #hero = Hero.new 'mike'       :S metodom "before" eto nenuzno! no dobowlaem "@"
-           expect(@hero.name).to eq 'Mike'   # hero.name == "Mike"   :to samoe
+            expect(@hero.name).to eq 'Mike'   # hero.name == "Mike"   :to samoe
         end
              
         it "can power up" do
-           expect(@hero.power_up).to eq 110   # hero.power_up == "110"  : to samoe
+            expect(@hero.power_up).to eq 110   # hero.power_up == "110"  : to samoe
         end
         
         it "can power down" do

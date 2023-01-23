@@ -5,7 +5,7 @@ class Hero
         @health = health
       end
     
-      attr_reader :name
+      attr_reader :name # esli eto est to "def name" mozno ne ispolzowat
     
       def name
         @name
